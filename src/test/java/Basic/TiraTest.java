@@ -20,6 +20,6 @@ public class TiraTest {
 		WebElement searchtf = dc.findElement(By.id("search"));
 		searchtf.sendKeys("Perfumes");
 		searchtf.sendKeys(Keys.ENTER);
-		
+		System.out.println("hello");
 	}
 }
